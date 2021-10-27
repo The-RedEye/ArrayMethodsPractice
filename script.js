@@ -27,7 +27,8 @@ console.log(wordsWithLessThanFourLetters)
 
 // Question 3: Given the same array of words, write the callback for 'every' to
 // determine if all the words in the array contain the letter 'a'.
-const doesEveryWordContainA = words.every(() => {});
+const doesEveryWordContainA = words.every((word) => (word.includes('a')));
+console.log(doesEveryWordContainA)
 
 // Question 4: Given the same array of words, write the callback for 'some' to
 // determine if any word in the array contains the letter 'x'.
