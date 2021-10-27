@@ -1,52 +1,6 @@
 
 
-# Array Methods Homework
-
-## Prerequisites
-
-- Functions and Scope
-- Array Methods
-- Objects
-
-## Instructions
-
-1. Fork and clone this repository.
-2. Change into the new directory.
-3. Fulfill the listed requirements, and commit after solving each question!
-4. Starter code is available in script.js. The JS file is already linked to your HTML.
-5. Make a commit after completing each prompt.
-6. You are required to turn in your submission by making a pull request on the original repository.
-
-Unless otherwise specified on the calendar or by an instructor, homework is due the next morning by 10:00am EST.
-
-### Preview Tomorrow's Content
-
-To prepare for tomorrow's material, check out the following videos:
-
-- [JS DOM](https://www.youtube.com/watch?v=FIORjGvT0kk)
-- [JS Events](https://www.youtube.com/watch?v=EaRrmOtPYTM)
-
-## Requirements
-
-A series of prompts are located in the `script.js` file. Complete each prompt and **commit after each one!**
-
-## Tips
-
-- Make sure you are committing your code after completing each question.
-- Open the index.html file in Google Chrome to view your console.log() messages.
-- Focus on completing one prompt at a time, and comment out your code and console.log()s for other prompts.
-
-## Too Easy?
-
-Check out this [repo](https://git.generalassemb.ly/SEIR-32221/array-methods-practice) for more Array Methods practice!
-
-## Plagiarism
-
-Take a moment to refamiliarize yourself with the [Plagiarism policy](https://git.generalassemb.ly/seir-826/course-intro#plagiarism). Plagiarized work will not be accepted.
-
-## Attribution
-
-Questions sourced from GA-WDI-Boston's JavaScript Array Methods [Diagnostic](https://git.generalassemb.ly/ga-wdi-boston/js-array-iteration-methods-diagnostic).
+# Array Methods
 
 ## [License](LICENSE)
 
