@@ -13,7 +13,7 @@ const holidays = [
 const mayHoliday = holidays.find((holiday) => {
 if(holiday.month=='may')
 return holiday});
-console.log(mayHoliday.name)
+//console.log(mayHoliday.name)
 
 const words = ['cat', 'bath', 'orange', 'tap', 'bay', 'ha', 'extravagant'];
 
@@ -23,16 +23,17 @@ const words = ['cat', 'bath', 'orange', 'tap', 'bay', 'ha', 'extravagant'];
 // a new array that only has the words from the original that had less than four
 // letters.
 const wordsWithLessThanFourLetters = words.filter((word) => (word.length<4));
-console.log(wordsWithLessThanFourLetters)
+//console.log(wordsWithLessThanFourLetters)
 
 // Question 3: Given the same array of words, write the callback for 'every' to
 // determine if all the words in the array contain the letter 'a'.
 const doesEveryWordContainA = words.every((word) => (word.includes('a')));
-console.log(doesEveryWordContainA)
+//console.log(doesEveryWordContainA)
 
 // Question 4: Given the same array of words, write the callback for 'some' to
 // determine if any word in the array contains the letter 'x'.
-const doesAnyWordContainX = words.some(() => {});
+const doesAnyWordContainX = words.some((word) => (word.includes('x')) );
+//console.log(doesAnyWordContainX)
 
 const developersArray = [
 	{ name: 'ralph', language: 'javascript' },
