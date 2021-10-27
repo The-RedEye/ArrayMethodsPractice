@@ -22,7 +22,8 @@ const words = ['cat', 'bath', 'orange', 'tap', 'bay', 'ha', 'extravagant'];
 // Question 2: Given the array above, write the callback for 'filter' to return
 // a new array that only has the words from the original that had less than four
 // letters.
-const wordsWithLessThanFourLetters = words.filter(() => {});
+const wordsWithLessThanFourLetters = words.filter((word) => (word.length<4));
+console.log(wordsWithLessThanFourLetters)
 
 // Question 3: Given the same array of words, write the callback for 'every' to
 // determine if all the words in the array contain the letter 'a'.
