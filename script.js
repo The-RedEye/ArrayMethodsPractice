@@ -10,9 +10,14 @@ const holidays = [
 
 // Question 1: Given the array above, write the callback for 'find' to return
 // the holiday object that occurs in the month of 'may'.
-const mayHoliday = holidays.find(() => {});
+const mayHoliday = holidays.find((holiday) => {
+if(holiday.month=='may')
+return holiday});
+console.log(mayHoliday.name)
 
 const words = ['cat', 'bath', 'orange', 'tap', 'bay', 'ha', 'extravagant'];
+
+
 
 // Question 2: Given the array above, write the callback for 'filter' to return
 // a new array that only has the words from the original that had less than four
